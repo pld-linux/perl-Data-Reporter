@@ -33,7 +33,7 @@ perl Makefile.PL
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT%{_exampledir}/%{name}-%{version}
+install -d $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
 
 %{__make} install DESTDIR=$RPM_BUILD_ROOT
 
@@ -56,4 +56,4 @@ rm -rf $RPM_BUILD_ROOT
 %attr(755,root,root) %{perl_sitearch}/auto/Data/Reporter/RepFormat/RepFormat.so
 %{perl_sitearch}/auto/libRepFormat
 %{_mandir}/man3/*
-%{_exampledir}/%{name}-%{version}
+%{_examplesdir}/%{name}-%{version}
