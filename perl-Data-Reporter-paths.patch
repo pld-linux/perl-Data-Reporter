@@ -1,0 +1,40 @@
+--- Data-Reporter-1.2/bin/VisRep.pl	Fri Feb 26 19:04:06 1999
++++ Data-Reporter-1.2.new/bin/VisRep.pl	Thu Oct  7 20:22:23 1999
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl
++#!/usr/bin/perl
+ use Cwd;
+ use Tk;
+ use Tk::DialogBox;
+--- Data-Reporter-1.2/examples/avef5803.pl	Fri Feb 26 19:07:47 1999
++++ Data-Reporter-1.2.new/examples/avef5803.pl	Thu Oct  7 20:22:37 1999
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl
++#!/usr/bin/perl
+ use strict;
+ use Data::Reporter;
+ use Data::Reporter::RepFormat;
+--- Data-Reporter-1.2/examples/avef5803a.pl	Fri Feb 26 19:07:47 1999
++++ Data-Reporter-1.2.new/examples/avef5803a.pl	Thu Oct  7 20:22:42 1999
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl
++#!/usr/bin/perl
+ #SIZE 105 66
+ #ORIENTATION landscape
+ #SOURCE Filesource ajusbena.rep
+--- Data-Reporter-1.2/examples/avef5804.pl	Fri Feb 26 19:07:47 1999
++++ Data-Reporter-1.2.new/examples/avef5804.pl	Thu Oct  7 20:22:47 1999
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl
++#!/usr/bin/perl
+ use strict;
+ use Data::Reporter;
+ use Data::Reporter::RepFormat;
+--- Data-Reporter-1.2/examples/avef5804a.pl	Fri Feb 26 19:07:47 1999
++++ Data-Reporter-1.2.new/examples/avef5804a.pl	Thu Oct  7 20:22:52 1999
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl
++#!/usr/bin/perl
+ #SIZE 80 66
+ #ORIENTATION portrait
+ #SOURCE Sybsource sybase.cfg
