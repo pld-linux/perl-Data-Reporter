@@ -1,3 +1,4 @@
+%define		_noautoreq "perl(Sybase::DBlib)" "perl(Sybase::Sybperl)"
 %include	/usr/lib/rpm/macros.perl
 Summary:	Data-Reporter perl module
 Summary(pl):	Modu³ perla Data-Reporter
