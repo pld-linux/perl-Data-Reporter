@@ -12,7 +12,7 @@ Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	86911309c9be9a1d57c26c0d44ee9c4a
 Patch0:		%{name}-paths.patch
-BuildRequires:	perl-devel >= 5.005_03-10
+BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
