@@ -1,9 +1,9 @@
-%define		perl_sitelib	%(eval "`perl -V:installsitelib`"; echo $installsitelib)
+%include	/usr/lib/rpm/macros.perl
 Summary:	Data-Reporter perl module
 Summary(pl):	Modu³ perla Data-Reporter
 Name:		perl-Data-Reporter
-Version:	1.2
-Release:	3
+Version:	1.3
+Release:	1
 Copyright:	GPL
 Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
