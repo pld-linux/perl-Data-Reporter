@@ -5,7 +5,7 @@ Summary:	Data::Reporter Perl module - report generator
 Summary(pl):	Modu³ Perla Data::Reporter - generator raportów
 Name:		perl-Data-Reporter
 Version:	1.4
-Release:	2
+Release:	3
 # same as perl
 License:	GPL v1 or Artistic
 Group:		Development/Languages/Perl
