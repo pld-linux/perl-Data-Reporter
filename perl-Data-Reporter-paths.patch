@@ -1,40 +1,45 @@
---- Data-Reporter-1.2/bin/VisRep.pl	Fri Feb 26 19:04:06 1999
-+++ Data-Reporter-1.2.new/bin/VisRep.pl	Thu Oct  7 20:22:23 1999
+diff -Nru Data-Reporter-1.3.1/bin/VisRep.pl Data-Reporter-1.3.1.new/bin/VisRep.pl
+--- Data-Reporter-1.3.1/bin/VisRep.pl	Tue Sep  5 08:52:06 2000
++++ Data-Reporter-1.3.1.new/bin/VisRep.pl	Tue Sep  5 08:50:25 2000
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl
 +#!/usr/bin/perl
  use Cwd;
  use Tk;
  use Tk::DialogBox;
---- Data-Reporter-1.2/examples/avef5803.pl	Fri Feb 26 19:07:47 1999
-+++ Data-Reporter-1.2.new/examples/avef5803.pl	Thu Oct  7 20:22:37 1999
+diff -Nru Data-Reporter-1.3.1/examples/example1.pl Data-Reporter-1.3.1.new/examples/example1.pl
+--- Data-Reporter-1.3.1/examples/example1.pl	Mon Jun 28 19:04:47 1999
++++ Data-Reporter-1.3.1.new/examples/example1.pl	Tue Sep  5 08:51:22 2000
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl
++#!/usr/bin/perl
+ #SIZE 80 30
+ #OUTPUTFILE example1.out
+ #SOURCE Sybsource 0
+diff -Nru Data-Reporter-1.3.1/examples/example2.pl Data-Reporter-1.3.1.new/examples/example2.pl
+--- Data-Reporter-1.3.1/examples/example2.pl	Mon Jun 28 23:36:21 1999
++++ Data-Reporter-1.3.1.new/examples/example2.pl	Tue Sep  5 08:51:38 2000
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl
++#!/usr/bin/perl
+ #SIZE 70 66
+ #OUTPUTFILE example2.out
+ #SOURCE Filesource example2.dat
+diff -Nru Data-Reporter-1.3.1/examples/example3.pl Data-Reporter-1.3.1.new/examples/example3.pl
+--- Data-Reporter-1.3.1/examples/example3.pl	Mon Jun 28 22:54:18 1999
++++ Data-Reporter-1.3.1.new/examples/example3.pl	Tue Sep  5 08:51:31 2000
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl
 +#!/usr/bin/perl
  use strict;
  use Data::Reporter;
  use Data::Reporter::RepFormat;
---- Data-Reporter-1.2/examples/avef5803a.pl	Fri Feb 26 19:07:47 1999
-+++ Data-Reporter-1.2.new/examples/avef5803a.pl	Thu Oct  7 20:22:42 1999
-@@ -1,4 +1,4 @@
--#!/usr/local/bin/perl
-+#!/usr/bin/perl
- #SIZE 105 66
- #ORIENTATION landscape
- #SOURCE Filesource ajusbena.rep
---- Data-Reporter-1.2/examples/avef5804.pl	Fri Feb 26 19:07:47 1999
-+++ Data-Reporter-1.2.new/examples/avef5804.pl	Thu Oct  7 20:22:47 1999
+diff -Nru Data-Reporter-1.3.1/examples/example4.pl Data-Reporter-1.3.1.new/examples/example4.pl
+--- Data-Reporter-1.3.1/examples/example4.pl	Mon Jun 28 23:28:49 1999
++++ Data-Reporter-1.3.1.new/examples/example4.pl	Tue Sep  5 08:51:34 2000
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl
 +#!/usr/bin/perl
  use strict;
  use Data::Reporter;
  use Data::Reporter::RepFormat;
---- Data-Reporter-1.2/examples/avef5804a.pl	Fri Feb 26 19:07:47 1999
-+++ Data-Reporter-1.2.new/examples/avef5804a.pl	Thu Oct  7 20:22:52 1999
-@@ -1,4 +1,4 @@
--#!/usr/local/bin/perl
-+#!/usr/bin/perl
- #SIZE 80 66
- #ORIENTATION portrait
- #SOURCE Sybsource sybase.cfg
