@@ -6,7 +6,7 @@ Summary:	Data::Reporter perl module
 Summary(pl):	Modu³ perla Data::Reporter
 Name:		perl-Data-Reporter
 Version:	1.4
-Release:	1
+Release:	2
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -28,7 +28,8 @@ pliku tekstowego.
 %patch -p1
 
 %build
-%{__perl} Makefile.PL
+%{__perl} Makefile.PL \
+	INSTALLDIRS=vendor 
 %{__make}
 
 %install
@@ -45,13 +46,13 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc README TODO
-%{perl_sitearch}/Data/Reporter.pm
-%{perl_sitearch}/Data/Reporter
-%dir %{perl_sitearch}/auto/Data/Reporter
-%dir %{perl_sitearch}/auto/Data/Reporter/RepFormat
-%{perl_sitearch}/auto/Data/Reporter/RepFormat/autosplit.ix
-%{perl_sitearch}/auto/Data/Reporter/RepFormat/RepFormat.bs
-%attr(755,root,root) %{perl_sitearch}/auto/Data/Reporter/RepFormat/RepFormat.so
-%{perl_sitearch}/auto/libRepFormat
+%{perl_vendorarch}/Data/Reporter.pm
+%{perl_vendorarch}/Data/Reporter
+%dir %{perl_vendorarch}/auto/Data/Reporter
+%dir %{perl_vendorarch}/auto/Data/Reporter/RepFormat
+%{perl_vendorarch}/auto/Data/Reporter/RepFormat/autosplit.ix
+%{perl_vendorarch}/auto/Data/Reporter/RepFormat/RepFormat.bs
+%attr(755,root,root) %{perl_vendorarch}/auto/Data/Reporter/RepFormat/RepFormat.so
+%{perl_vendorarch}/auto/libRepFormat
 %{_mandir}/man3/*
 %{_examplesdir}/%{name}-%{version}
