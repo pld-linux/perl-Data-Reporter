@@ -1,7 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Data
 %define	pnam	Reporter
-%define		_noautoreq "perl(Sybase::DBlib)" "perl(Sybase::Sybperl)"
 Summary:	Data::Reporter perl module
 Summary(pl):	Modu³ perla Data::Reporter
 Name:		perl-Data-Reporter
@@ -15,6 +14,8 @@ Patch0:		%{name}-paths.patch
 BuildRequires:	perl-devel >= 5.005_03-10
 BuildRequires:	rpm-perlprov
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
+
+%define		_noautoreq 'perl(Sybase::DBlib)' 'perl(Sybase::Sybperl)'
 
 %description
 Data::Reporter module generates ascii reports from a Database or a
@@ -37,7 +38,8 @@ pliku tekstowego.
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
 
-%{__make} install DESTDIR=$RPM_BUILD_ROOT
+%{__make} install \
+	DESTDIR=$RPM_BUILD_ROOT
 
 cp -a examples/* bin/* $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
 
