@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Data
-%define	pnam	Reporter
+%define		pdir	Data
+%define		pnam	Reporter
 Summary:	Data::Reporter Perl module - report generator
 Summary(pl):	Modu³ Perla Data::Reporter - generator raportów
 Name:		perl-Data-Reporter
