@@ -1,12 +1,13 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Data
 %define	pnam	Reporter
-Summary:	Data::Reporter perl module
-Summary(pl):	Modu³ perla Data::Reporter
+Summary:	Data::Reporter Perl module - report generator
+Summary(pl):	Modu³ Perla Data::Reporter - generator raportów
 Name:		perl-Data-Reporter
 Version:	1.4
 Release:	2
-License:	GPL
+# same as perl
+License:	GPL v1 or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	86911309c9be9a1d57c26c0d44ee9c4a
@@ -18,8 +19,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %define		_noautoreq 'perl(Sybase::DBlib)' 'perl(Sybase::Sybperl)'
 
 %description
-Data::Reporter module generates ascii reports from a Database or a
-plain ascii file.
+Data::Reporter module generates ASCII reports from a database or a
+plain ASCII file.
 
 %description -l pl
 Modu³ Data::Reporter generuje raporty na podstawie bazy danych lub
