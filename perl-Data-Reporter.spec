@@ -5,8 +5,8 @@
 Summary:	Data::Reporter perl module
 Summary(pl):	Modu³ perla Data::Reporter
 Name:		perl-Data-Reporter
-Version:	1.3.1
-Release:	5
+Version:	1.4
+Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
