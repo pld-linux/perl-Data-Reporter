@@ -1,10 +1,13 @@
+%define	pdir	Data
+%define	pnam	Reporter
 %define		_noautoreq "perl(Sybase::DBlib)" "perl(Sybase::Sybperl)"
 %include	/usr/lib/rpm/macros.perl
 Summary:	Data-Reporter perl module
 Summary(pl):	Modu³ perla Data-Reporter
 Name:		perl-Data-Reporter
 Version:	1.3.1
-Release:	3
+Release:	4
+
 License:	GPL
 Group:		Development/Languages/Perl
 Group(cs):	Vývojové prostøedky/Programovací jazyky/Perl
@@ -15,7 +18,7 @@ Group(ja):	³«È¯/¸À¸ì/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
 Group(pt):	Desenvolvimento/Linguagens/Perl
 Group(ru):	òÁÚÒÁÂÏÔËÁ/ñÚÙËÉ/Perl
-Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Data/Data-Reporter-%{version}.tar.gz
+Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 Patch0:		%{name}-paths.patch
 BuildRequires:	perl >= 5.005_03-10
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
