@@ -1,13 +1,12 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Data
 %define	pnam	Reporter
 %define		_noautoreq "perl(Sybase::DBlib)" "perl(Sybase::Sybperl)"
-%include	/usr/lib/rpm/macros.perl
 Summary:	Data-Reporter perl module
 Summary(pl):	Modu³ perla Data-Reporter
 Name:		perl-Data-Reporter
 Version:	1.3.1
-Release:	4
-
+Release:	5
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -24,7 +23,7 @@ Modu³ Data-Reporter generuje raporty na podstawie bazy danych lub
 pliku tekstowego.
 
 %prep
-%setup -q -n Data-Reporter-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 %patch -p1
 
 %build
