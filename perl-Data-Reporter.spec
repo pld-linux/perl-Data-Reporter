@@ -9,7 +9,7 @@ Version:	1.3.1
 Release:	5
 License:	GPL
 Group:		Development/Languages/Perl
-Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 Patch0:		%{name}-paths.patch
 BuildRequires:	perl >= 5.005_03-10
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
