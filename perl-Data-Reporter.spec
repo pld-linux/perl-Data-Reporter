@@ -2,8 +2,8 @@
 %define	pdir	Data
 %define	pnam	Reporter
 %define		_noautoreq "perl(Sybase::DBlib)" "perl(Sybase::Sybperl)"
-Summary:	Data-Reporter perl module
-Summary(pl):	Modu³ perla Data-Reporter
+Summary:	Data::Reporter perl module
+Summary(pl):	Modu³ perla Data::Reporter
 Name:		perl-Data-Reporter
 Version:	1.3.1
 Release:	5
@@ -15,11 +15,11 @@ BuildRequires:	perl >= 5.005_03-10
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Data-Reporter module generates ascii reports from a Database or a
+Data::Reporter module generates ascii reports from a Database or a
 plain ascii file.
 
 %description -l pl
-Modu³ Data-Reporter generuje raporty na podstawie bazy danych lub
+Modu³ Data::Reporter generuje raporty na podstawie bazy danych lub
 pliku tekstowego.
 
 %prep
