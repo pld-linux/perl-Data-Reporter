@@ -3,7 +3,7 @@ Summary:	Data-Reporter perl module
 Summary(pl):	Modu³ perla Data-Reporter
 Name:		perl-Data-Reporter
 Version:	1.3.1
-Release:	2
+Release:	3
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
