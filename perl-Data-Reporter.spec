@@ -2,7 +2,7 @@
 %define		pdir	Data
 %define		pnam	Reporter
 Summary:	Data::Reporter Perl module - report generator
-Summary(pl):	Modu≥ Perla Data::Reporter - generator raportÛw
+Summary(pl.UTF-8):   Modu≈Ç Perla Data::Reporter - generator raport√≥w
 Name:		perl-Data-Reporter
 Version:	1.4
 Release:	3
@@ -22,8 +22,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Data::Reporter module generates ASCII reports from a database or a
 plain ASCII file.
 
-%description -l pl
-Modu≥ Data::Reporter generuje raporty na podstawie bazy danych lub
+%description -l pl.UTF-8
+Modu≈Ç Data::Reporter generuje raporty na podstawie bazy danych lub
 pliku tekstowego.
 
 %prep
