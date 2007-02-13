@@ -2,7 +2,7 @@
 %define		pdir	Data
 %define		pnam	Reporter
 Summary:	Data::Reporter Perl module - report generator
-Summary(pl.UTF-8):   Moduł Perla Data::Reporter - generator raportów
+Summary(pl.UTF-8):	Moduł Perla Data::Reporter - generator raportów
 Name:		perl-Data-Reporter
 Version:	1.4
 Release:	3
