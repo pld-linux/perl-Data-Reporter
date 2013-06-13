@@ -5,7 +5,7 @@ Summary:	Data::Reporter Perl module - report generator
 Summary(pl.UTF-8):	Moduł Perla Data::Reporter - generator raportów
 Name:		perl-Data-Reporter
 Version:	1.4
-Release:	9
+Release:	10
 # same as perl
 License:	GPL v1 or Artistic
 Group:		Development/Languages/Perl
@@ -16,7 +16,7 @@ BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		_noautoreq 'perl(Sybase::DBlib)' 'perl(Sybase::Sybperl)'
+%define		_noautoreq_perl	Sybase::DBlib Sybase::Sybperl
 
 %description
 Data::Reporter module generates ASCII reports from a database or a
