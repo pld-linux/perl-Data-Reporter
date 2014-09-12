@@ -55,7 +55,6 @@ rm -rf $RPM_BUILD_ROOT
 %dir %{perl_vendorarch}/auto/Data/Reporter
 %dir %{perl_vendorarch}/auto/Data/Reporter/RepFormat
 %{perl_vendorarch}/auto/Data/Reporter/RepFormat/autosplit.ix
-%{perl_vendorarch}/auto/Data/Reporter/RepFormat/RepFormat.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/Data/Reporter/RepFormat/RepFormat.so
 %{perl_vendorarch}/auto/libRepFormat
 %{_mandir}/man3/*
