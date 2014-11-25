@@ -1,6 +1,6 @@
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Data
 %define		pnam	Reporter
+%include	/usr/lib/rpm/macros.perl
 Summary:	Data::Reporter Perl module - report generator
 Summary(pl.UTF-8):	Moduł Perla Data::Reporter - generator raportów
 Name:		perl-Data-Reporter
@@ -12,6 +12,7 @@ Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	86911309c9be9a1d57c26c0d44ee9c4a
 Patch0:		%{name}-paths.patch
+URL:		http://search.cpan.org/dist/Data-Reporter/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
