@@ -11,6 +11,7 @@ Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	86911309c9be9a1d57c26c0d44ee9c4a
 Patch0:		%{name}-paths.patch
+Patch1:		includes.patch
 URL:		http://search.cpan.org/dist/Data-Reporter/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov
@@ -29,6 +30,7 @@ pliku tekstowego.
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
 %patch -P0 -p1
+%patch -P1 -p1
 
 %build
 %{__perl} Makefile.PL \
